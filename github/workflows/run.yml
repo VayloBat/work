@@ -2,7 +2,7 @@ name: CVE Radar
 on:
   schedule:
     - cron: '*/15 * * * *' # سيعمل تلقائياً كل 15 دقيقة
-  workflow_dispatch: # لتشغيله يدوياً وقتما تشاء
+  workflow_dispatch: # لتشغيله يدوياً وقتما تشاء 
 
 jobs:
   build:
